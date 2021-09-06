@@ -1,0 +1,22 @@
+{
+  "app": {
+    "name": "drixit-fullstack-challenge",
+    "cluster": true,
+    "port": 3030,
+    "portS": 8443,
+    "lang": [
+      "es",
+      "en"
+    ]
+  },
+  "api": {
+    "host": "http://localhost",
+    "basePath": "/api"
+  },
+  "corsWhitelist":  ["http://localhost:3000", "http://example2.com"],
+  "mockup": false,
+  "jwt": { 
+    "expiresIn": "1h",
+    "secret": "secretsecret"
+  }
+}

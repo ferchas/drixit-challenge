@@ -1,0 +1,6 @@
+{
+  "app": {
+    "cluster": false
+  },
+  "mockup": true
+}
